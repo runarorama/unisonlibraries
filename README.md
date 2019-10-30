@@ -30,6 +30,12 @@ Nat.^ : Nat -> Nat -> Nat
 Nat.pow : Nat -> Nat -> Nat
 Search.findIndex : (a ->{𝕖} Boolean) -> [a] ->{𝕖} Optional Nat
 Search.findLastIndex : (a ->{𝕖} Boolean) -> [a] ->{𝕖} Optional Nat
+Text.fromBytes : Bytes -> Text
+Text.join : Text -> [Text] -> Text
+Text.length : Text -> Nat
+Text.split : Text -> Text -> [Text]
+Text.startsWith : Text -> Text -> Boolean
+Text.toBytes : Text -> Bytes
 Tuple.curry : ((a, b) ->{𝕖} c) -> a -> b ->{𝕖} c
 Tuple.schönfinkel : ((a, b) ->{𝕖} c) -> a -> b ->{𝕖} c
 Tuple.uncurry : (a ->{𝕖} b ->{𝕖} c) -> (a, b) ->{𝕖} c
@@ -74,5 +80,11 @@ tests.List.tail.tailOfEmpty : [Test.Result]
 tests.Nat.pow.expansion : [Test.Result]
 tests.Nat.pow.homomorphism : [Test.Result]
 tests.Nat.smallNat : ∀ (). () ->{test.v1.Gen} Nat
+tests.Text.fromBytes : Bytes -> Text
+tests.Text.join : Text -> [Text] -> Text
+tests.Text.length : Text -> Nat
+tests.Text.split : Text -> Text -> [Text]
+tests.Text.startsWith : Text -> Text -> Boolean
+tests.Text.toBytes : Text -> Bytes
 ```
 
