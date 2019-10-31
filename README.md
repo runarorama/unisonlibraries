@@ -1,3 +1,17 @@
+# Various libraries for Unison
+
+This is a collection of [Unison](http://unisonweb.org) functions and data types not (yet) included in the [`.base` library](http://github.com/unisonweb/unisonbase).
+
+## Installation
+
+From the `ucm` prompt:
+
+```
+.> pull git@github.com:runarorama/unisonlibraries.git .lib
+```
+
+This will install the following into your codebase under the `.lib` namespace.
+
 ### New Functions
 
 ``` Idris
