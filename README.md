@@ -1,6 +1,6 @@
 # Various libraries for Unison
 
-This is a collection of [Unison](http://unisonweb.org) functions and data types not (yet) included in the [`.base` library](http://github.com/unisonweb/unisonbase).
+This is a collection of [Unison](http://unisonweb.org) functions and data types not (yet) included in the [`.base` library](http://github.com/unisonweb/base).
 
 ## Installation
 
